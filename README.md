@@ -39,10 +39,10 @@ For a detailed explanation of the design and implementation of the solution, ple
 
 ## Files
 
-- **Specification - ITA.pdf:** This file contains the full project specification in Italian.
-- **Final Delivery - ITA.pdf:** This file provides a comprehensive explanation of the solution in Italian.
-- **Project.vhd:** Contains the VHDL code used to implement the design, including the top-level module and FSM.
-- **Project test banch.vhd:** Contains the VHDL code used to implement the test banch, including the implementation of the memory.
+- `Specification - ITA.pdf`: This file contains the full project specification in Italian.
+- `Final Delivery - ITA.pdf`: This file provides a comprehensive explanation of the solution in Italian.
+- `Project.vhd`: Contains the VHDL code used to implement the design, including the top-level module and FSM.
+- `Project test banch.vhd`: Contains the VHDL code used to implement the test banch, including the implementation of the memory.
 
 ## How to Run
 
@@ -50,6 +50,10 @@ For a detailed explanation of the design and implementation of the solution, ple
 2. **Load the project into Vivado** and configure the FPGA hardware (Artix-7 xc7a200tfbg484-1).
 3. **Compile the VHDL code** and deploy it to the FPGA.
 4. **Test the module** using the provided testbench or real-world memory interactions.
+
+## Disclaimer
+
+The project `Specification - ITA.pdf` and `Final Delivery - ITA.pdf` are written in Italian. Please refer to these documents for a complete and detailed explanation of the project in its native language.
 
 ## License
 
