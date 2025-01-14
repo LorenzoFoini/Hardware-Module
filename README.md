@@ -24,7 +24,7 @@ The system was designed using Vivado and implemented on an Artix-7 FPGA (xc7a200
 
 - **Finite State Machine (FSM):** The FSM manages the entire process of reading values from memory, handling missing values, and writing the processed values and credibility levels back to memory.
 - **Memory Interfacing:** The FSM interacts with the memory by controlling the address bus and enabling read/write operations.
-It is important to note that the **memory is not to be implemented** as part of this project, as it is already provided within the testbench in the file `project test bench`. The module interacts with this pre-existing memory during the simulation.
+It is important to note that the **memory is not to be implemented** as part of this project, as it is already provided within the testbench in the file `Project test bench.vhd`. The module interacts with this pre-existing memory during the simulation.
 
 The FSM operates in several states, including reading memory, checking values, writing values, and adjusting the credibility. The process continues until all values are processed, and the final result is written back to memory.
 
@@ -41,7 +41,8 @@ For a detailed explanation of the design and implementation of the solution, ple
 
 - **Specification - ITA.pdf:** This file contains the full project specification in Italian.
 - **Final Delivery - ITA.pdf:** This file provides a comprehensive explanation of the solution in Italian.
-- **project.vhd:** Contains the VHDL code used to implement the design, including the top-level module and FSM.
+- **Project.vhd:** Contains the VHDL code used to implement the design, including the top-level module and FSM.
+- **Project test banch.vhd:** Contains the VHDL code used to implement the test banch, including the implementation of the memory.
 
 ## How to Run
 
